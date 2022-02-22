@@ -3,7 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 * {
+    position: relative;
     font-family: 'Montserrat', sans-serif;
 }
 
+@import "header/_header.scss";
 @import "box/_box.scss";

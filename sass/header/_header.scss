@@ -1,0 +1,17 @@
+header {
+    position: fixed;
+    padding: 2rem;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 2rem;
+    z-index: 5;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+@import "menu/_headerMenu.scss";
+@import "logo/_headerLogo.scss";
+@import "list/_headerList.scss";
+@import "item/_headerItem.scss";
