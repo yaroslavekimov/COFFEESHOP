@@ -555,7 +555,6 @@ header {
 }
 
 .headerItem a:hover::after {
-  content: '';
   opacity: 100%;
 }
 

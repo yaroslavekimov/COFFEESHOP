@@ -25,7 +25,6 @@
         &:hover {
             color: #705a38;
             &::after {
-                content: '';
                 opacity: 100%;
             }
         }
