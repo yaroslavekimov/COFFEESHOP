@@ -1,4 +1,3 @@
-    
     <footer>
         <div class="copyright">
             Copyright © The Coffee Shop.

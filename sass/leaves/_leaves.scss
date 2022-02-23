@@ -1,0 +1,13 @@
+.leaves {
+    display: inline-block;
+    mix-blend-mode: difference;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60rem;
+    height: 40rem;
+    .leavesImg {
+        width: 100%;
+        height: 100%;
+    }
+}
