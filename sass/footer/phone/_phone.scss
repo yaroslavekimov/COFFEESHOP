@@ -1,0 +1,10 @@
+.phone {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+@import "phoneTitle/_phoneTitle.scss";
+@import "phoneNumber/_phoneNumber.scss";

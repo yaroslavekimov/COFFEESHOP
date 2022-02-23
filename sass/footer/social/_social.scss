@@ -1,0 +1,9 @@
+.social {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+@import "socialList/_socialList.scss";
+@import "socialItem/_socialItem.scss";

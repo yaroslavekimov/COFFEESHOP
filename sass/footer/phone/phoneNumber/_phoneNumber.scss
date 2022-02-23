@@ -1,0 +1,9 @@
+.phoneNumber a {
+    font-weight: 800;
+    color: #382e1e;
+    text-decoration: none;
+    transition: all 0.5s;
+    &:hover {
+        color: #705a38;
+    }
+}

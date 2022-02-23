@@ -564,3 +564,134 @@ header {
   height: 100vh;
   background: url(../background/background.png) center center/cover no-repeat;
 }
+
+footer {
+  position: fixed;
+  padding: 0px 2rem;
+  padding-bottom: 2rem;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 5rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+  -webkit-align-items: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.copyright {
+  width: 20%;
+  font-family: Montserrat;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #382e1e;
+}
+
+.social {
+  width: 60%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: end;
+  -webkit-align-items: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.socialList {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: end;
+  -webkit-align-items: end;
+      -ms-flex-align: end;
+          align-items: end;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.socialItem {
+  margin-left: 1rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+.socialItem a {
+  width: 100%;
+  height: 100%;
+}
+
+.socialItem a img {
+  width: 100%;
+  height: 100%;
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.socialItem a img:hover {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.phone {
+  width: 20%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: end;
+  -webkit-align-items: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.phoneTitle {
+  font-weight: 800;
+  color: #382e1e;
+}
+
+.phoneNumber a {
+  font-weight: 800;
+  color: #382e1e;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.phoneNumber a:hover {
+  color: #705a38;
+}
