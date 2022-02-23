@@ -816,3 +816,90 @@ footer {
   width: 100%;
   height: 100%;
 }
+
+.generalPage {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.generalPageImg {
+  margin-left: 5rem;
+  width: 38rem;
+  height: 35rem;
+  z-index: 2;
+}
+
+.generalPageImg img {
+  width: 100%;
+  height: 100%;
+}
+
+.generalPagePromo {
+  width: 35%;
+  min-height: 20rem;
+  text-align: left;
+  margin-bottom: 5rem;
+}
+
+.generalPageTitle {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: Pacifico;
+  color: #382e1e;
+  line-height: 5rem;
+  font-size: 3.5rem;
+}
+
+.generalPageTitle span {
+  font-family: Pacifico;
+  font-size: 1.8rem;
+}
+
+.generalPageButton {
+  margin-left: 10rem;
+  outline: none;
+  border: none;
+  width: 16rem;
+  height: 4rem;
+  background-color: #2f2719;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.generalPageButton a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  font-size: 1.5rem;
+  line-height: 3.8rem;
+  font-weight: 800;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #c49f6d;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.generalPageButton a:hover {
+  color: #2f2719;
+}
+
+.generalPageButton:hover {
+  background-color: #c49f6d;
+}
