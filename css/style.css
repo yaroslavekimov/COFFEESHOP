@@ -704,8 +704,8 @@ footer {
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
-  width: 60rem;
-  height: 40rem;
+  width: 55%;
+  height: 65%;
 }
 
 .leaves .leavesImg {
