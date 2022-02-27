@@ -915,7 +915,7 @@ footer {
   z-index: 2;
 }
 
-.aboutPageTitle {
+.Title {
   margin-bottom: 2rem;
   text-align: center;
   font-size: 4rem;
@@ -924,7 +924,7 @@ footer {
   color: #382e1e;
 }
 
-.aboutPageWrapper {
+.Wrapper {
   min-width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -990,4 +990,77 @@ footer {
           border-radius: 10px;
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contactsPage {
+  padding-top: 10%;
+  width: 80%;
+  min-height: 60%;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.contactsPageItem {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+iframe {
+  width: 100%;
+  height: 20rem;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+}
+
+.contactsPageList {
+  padding: 0px;
+  list-style-type: none;
+}
+
+.contactsPageLink {
+  margin-top: 1rem;
+}
+
+.contactsPageLink span {
+  padding-right: 1rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.contactsPageLink a {
+  text-decoration: none;
+  color: #382e1e;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.contactsPageLink a:hover {
+  color: #705a38;
+}
+
+.contactsPageSocial {
+  width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2rem;
 }

@@ -1,0 +1,9 @@
+.contactsPage {
+    padding-top: 10%;
+    width: 80%;
+    min-height: 60%;
+    margin: 0 auto;
+    z-index: 2;
+}
+@import "contactsPageItem/_contactsPageItem.scss";
+@import "contactsPageSocial/_contactsPageSocial.scss";

@@ -1,7 +1,7 @@
 	
 	<div class="aboutPage">
-		<h1 class="aboutPageTitle">О нас</h1>
-		<div class="aboutPageWrapper">
+		<h1 class="aboutPageTitle Title">О нас</h1>
+		<div class="aboutPageWrapper Wrapper">
 			<div class="aboutPageSideBar aboutPageSideBarLeft">
 				<div class="aboutPageItem">
 					<div class="aboutPageCount">5</div>
