@@ -1,0 +1,17 @@
+.goodsPageItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    a {
+        text-decoration: none;
+        color: #382e1e;
+        transition: all 0.5s;
+        &:hover {  
+            color: #705a38;
+        }
+    }
+}
+@import "goodsPageName/_goodsPageName.scss";

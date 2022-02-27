@@ -26,7 +26,7 @@
 				<div class="seed"><img src="img/seed_13.png" alt="the best coffee" class="seedImg"></div>
 			</div>
 			<div class="stamp"><img src="img/Natural.png" alt="stamp coffee"></div>
-	</section>
+		</section>
 	</main>
 <?php
 	include_once 'php/footer.php';
