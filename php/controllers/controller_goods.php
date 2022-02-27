@@ -14,10 +14,9 @@
 			$this->view->generate('goods_view.php', 'template_view.php', $data);
 		}
 
-		function action_product() {
-			$id_author = $_GET['id'];
+		function action_coffee() {
 			$data = $this->model->get_data();
-			$this->view->generate('product_view.php', 'template_view.php', $data);
+			$this->view->generate('coffee_view.php', 'template_view.php', $data);
 		}
 	}
 
