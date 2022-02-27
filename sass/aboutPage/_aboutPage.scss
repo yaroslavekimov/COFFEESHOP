@@ -1,0 +1,9 @@
+.aboutPage {
+    padding-top: 10%;
+    width: 80%;
+    min-height: 60%;
+    margin: 0 auto;
+    z-index: 2;
+}
+@import "aboutPageTitle/_aboutPageTitle.scss";
+@import "aboutPageWrapper/_aboutPageWrapper.scss";

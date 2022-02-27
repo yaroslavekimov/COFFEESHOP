@@ -16,7 +16,7 @@
                 <ul class="headerList">
                     <li class="headerItem"><a href="/coffee-shop">ГЛАВНАЯ</a></li>
                     <li class="headerItem"><a href="#">ТОВАРЫ</a></li>
-                    <li class="headerItem"><a href="#">О НАС</a></li>
+                    <li class="headerItem"><a href="/coffee-shop/about">О НАС</a></li>
                     <li class="headerItem"><a href="#">КОНТАКТЫ</a></li>
                 </ul>
             </div>

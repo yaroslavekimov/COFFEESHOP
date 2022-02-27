@@ -906,3 +906,88 @@ footer {
 .generalPageButton:hover {
   background-color: #c49f6d;
 }
+
+.aboutPage {
+  padding-top: 10%;
+  width: 80%;
+  min-height: 60%;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.aboutPageTitle {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #382e1e;
+}
+
+.aboutPageWrapper {
+  min-width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aboutPageSideBar {
+  width: 25%;
+  height: 100%;
+}
+
+.aboutPageSideBarLeft {
+  margin-right: 2rem;
+}
+
+.aboutPageSideBarRight {
+  margin-left: 2rem;
+}
+
+.aboutPageItem {
+  margin-top: 4rem;
+  width: 100%;
+  height: 50%;
+}
+
+.aboutPageCount {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #382e1e;
+}
+
+.aboutPageText {
+  text-align: center;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #382e1e;
+  color: #ffffff;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.aboutPageDescription {
+  width: 50%;
+  height: 100%;
+  padding: 1rem;
+  text-align: justify;
+  text-indent: 3rem;
+  line-height: 2rem;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
+}

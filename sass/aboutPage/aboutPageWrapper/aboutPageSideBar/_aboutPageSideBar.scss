@@ -1,0 +1,11 @@
+.aboutPageSideBar {
+    width: 25%;
+    height: 100%;
+    &Left {
+        margin-right: 2rem;
+    }
+    &Right {
+        margin-left: 2rem;
+    }
+}
+@import "aboutPageItem/_aboutPageItem.scss";
