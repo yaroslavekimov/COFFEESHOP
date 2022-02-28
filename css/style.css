@@ -869,7 +869,8 @@ footer {
   font-size: 1.8rem;
 }
 
-.generalPageButton {
+.Button {
+  text-align: center;
   margin-left: 10rem;
   outline: none;
   border: none;
@@ -883,7 +884,7 @@ footer {
   transition: all 0.5s;
 }
 
-.generalPageButton a {
+.Button a {
   display: inline-block;
   width: 100%;
   height: 100%;
@@ -899,11 +900,11 @@ footer {
   transition: all 0.5s;
 }
 
-.generalPageButton a:hover {
+.Button a:hover {
   color: #2f2719;
 }
 
-.generalPageButton:hover {
+.Button:hover {
   background-color: #c49f6d;
 }
 
@@ -1112,16 +1113,33 @@ iframe {
 }
 
 .goodsPageName {
+  margin-bottom: 2rem;
   font-family: Pacifico;
   font-size: 5rem;
   font-weight: 400;
   color: #382e1e;
 }
 
+.goodsPageButton {
+  margin: 0;
+  color: #c49f6d;
+  font-size: 1.5rem;
+  line-height: 3.8rem;
+  font-weight: 800;
+}
+
+.goodsPageButton:hover {
+  cursor: pointer;
+  color: #2f2719;
+}
+
 .goodsPageList {
   width: 100%;
   height: 100%;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
@@ -1142,4 +1160,17 @@ iframe {
 .goodsPageImg {
   width: 50%;
   height: 100%;
+}
+
+.goodsPageText {
+  width: 60%;
+  height: 100%;
+  padding: 1rem;
+  text-align: justify;
+  text-indent: 3rem;
+  line-height: 2rem;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
 }
