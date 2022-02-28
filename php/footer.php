@@ -14,5 +14,6 @@
             <div class="phoneNumber"><a href="tel: +1 800 555 888">+1 (800) 555 888</a></div>
         </div>
     </footer>
+    <script src="/coffee-shop/js/goods.js"></script>
 </body>
 </html>

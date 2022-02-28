@@ -16,6 +16,10 @@
 				</div>';
 				}
 			?>
-			
+			<div class="control">
+				<div class="controlButton">Prev</div>
+				<div class="controlButton">Next</div>
+			</div>
+
 		</div>
 	</div>

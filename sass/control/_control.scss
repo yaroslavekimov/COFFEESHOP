@@ -1,0 +1,11 @@
+.control {
+    position: fixed;
+    bottom: 20%;
+    right: 20%;
+    min-width: 3rem;
+    min-height: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@import "controlButton/_controlButton.scss";
