@@ -1,7 +1,7 @@
 	
-	<div class="coffeePage Page">
-		<h1 class="coffeePageTitle Title">Товар</h1>
-		<div class="coffeePageWrapper Wrapper">
+	<div class="goodsPage Page">
+		<h1 class="goodsPageTitle Title">Товар</h1>
+		<div class="goodsPageWrapper Wrapper">
 			<?php 
 				for ($row_no = 0; $row_no <= $data->num_rows - 1; $row_no++) {
 					$data->data_seek($row_no);

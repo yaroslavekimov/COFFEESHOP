@@ -15,7 +15,8 @@
 		}
 
 		function action_coffee() {
-			$data = $this->model->get_data();
+			$id = $_GET['id'];
+			$data = $this->model->get_data($id);
 			$this->view->generate('coffee_view.php', 'template_view.php', $data);
 		}
 	}

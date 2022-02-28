@@ -4,9 +4,9 @@
         </div>
         <div class="social">
             <ul class="socialList">
-                <li class="socialItem"><a href="/coffee-shop"><img src="img/facebook.png" alt="coffee-shop facebook"></a></li>
-                <li class="socialItem"><a href="/coffee-shop"><img src="img/Twitter.png" alt="coffee-shop twitter"></a></li>
-                <li class="socialItem"><a href="/coffee-shop"><img src="img/Instagram.png" alt="coffee-shop instagram"></a></li>
+                <li class="socialItem"><a href="/coffee-shop"><img src="/coffee-shop/img/facebook.png" alt="coffee-shop facebook"></a></li>
+                <li class="socialItem"><a href="/coffee-shop"><img src="/coffee-shop/img/Twitter.png" alt="coffee-shop twitter"></a></li>
+                <li class="socialItem"><a href="/coffee-shop"><img src="/coffee-shop/img/Instagram.png" alt="coffee-shop instagram"></a></li>
             </ul>
         </div>
         <div class="phone">
