@@ -1,0 +1,8 @@
+.productsPageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+@import "productsPageItem/_productsPageItem.scss";
+@import "productsPageList/_productsPageList.scss";

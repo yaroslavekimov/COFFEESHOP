@@ -1,4 +1,4 @@
-.goodsPageItem {
+.productsPageItem {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,5 +14,5 @@
         }
     }
 }
-@import "goodsPageName/_goodsPageName.scss";
-@import "goodsPageButton/_goodsPageButton.scss";
+@import "productsPageName/_productsPageName.scss";
+@import "productsPageButton/_productsPageButton.scss";

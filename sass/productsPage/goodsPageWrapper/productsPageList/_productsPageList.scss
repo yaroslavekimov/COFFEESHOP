@@ -1,4 +1,4 @@
-.goodsPageList {
+.productsPageList {
     width: 100%;
     height: 100%;
     display: flex;
@@ -8,5 +8,5 @@
         display: flex;
     }
 }
-@import "goodsPageImg/_goodsPageImg.scss";
-@import "goodsPageText/_goodsPageText.scss";
+@import "productsPageImg/_productsPageImg.scss";
+@import "productsPageText/_productsPageText.scss";
