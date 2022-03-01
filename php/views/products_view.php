@@ -1,5 +1,5 @@
 	
-	<div class="productsPage Page">
+	<div id="products" class="productsPage Page">
 		<h1 class="productsPageTitle Title">Товары</h1>
 		<div class="productsPageWrapper Wrapper">
 			<?php 

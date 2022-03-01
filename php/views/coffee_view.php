@@ -1,5 +1,5 @@
 	
-	<div class="productsPage Page">
+	<div id="coffee" class="productsPage Page">
 		<h1 class="productsPageTitle Title coffeePageTitle">Товар</h1>
 		<div class="productsPageWrapper Wrapper">
 			<?php for ($row_no = 0; $row_no <= $data->num_rows - 1; $row_no++) {
