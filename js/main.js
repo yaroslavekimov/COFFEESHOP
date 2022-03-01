@@ -5,7 +5,7 @@ window.addEventListener('DOMContentLoaded', function() {
     let slideIndex = 1;
 
     function showSlide(index) {
-        let slides = document.querySelectorAll('.goodsPageList');
+        let slides = document.querySelectorAll('.productsPageList');
 
         if (index > slides.length) {
             slideIndex = 1;
