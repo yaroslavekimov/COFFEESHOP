@@ -1,0 +1,42 @@
+@media (max-width: 768px) {
+    .contactsPageTitle {
+        font-size: 2rem;
+    }
+    .contactsPageWrapper  {
+        flex-direction: column;
+    }
+    .contactsPageItem {
+        width: 100%;
+    }
+    .contactsPageItem:nth-child(1) {
+        display: none;
+    }
+}
+@media (width: 812px) and (height: 375px) {
+    .contactsPageTitle {
+        margin: 0;
+        font-size: 2rem;
+    }
+    .contactsPageItem:nth-child(1) {
+        display: none;
+    }
+    .contactsPageSocial {
+        display: none;
+    }
+}
+@media (max-width: 370px) {
+    .contactsPageTitle {
+        display: block;
+        text-align: center;
+    }
+    .contactsPage {
+        width: 100%;
+        margin: 0;
+    }
+    .contactsPageLink span {
+        font-size: 0.8rem;
+    }
+    .contactsPageLink a {
+        font-size: 0.8rem;
+    }
+}

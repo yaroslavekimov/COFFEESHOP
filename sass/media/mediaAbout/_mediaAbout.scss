@@ -1,0 +1,43 @@
+@media (max-width: 1500px) {
+    .aboutPageText {
+        font-size: 0.8rem;
+    }
+}
+@media (max-width: 1200px) {
+    .aboutPageText {
+        font-size: 0.6rem;
+    }
+    .aboutPageDescription {
+        line-height: 1.5rem;
+    }
+}
+@media (max-width: 991px) {
+    .aboutPageTitle {
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+    .aboutPageDescription {
+        width: 100%;
+        margin-top: 2rem;
+        font-size: 0.8rem;
+    }
+    .aboutPageSideBar {
+        display: none;
+    }
+}
+@media (max-width: 991px) and (orientation: landscape) {
+    .aboutPageTitle {
+        margin: 0rem;
+    }
+    .aboutPageDescription {
+        margin: 0rem;
+        line-height: 1rem;
+    }
+}
+@media (max-width: 577px) {
+    .aboutPageDescription {
+        margin-top: 0rem;
+        font-size: 0.6rem;
+        line-height: 1rem;
+    }
+}

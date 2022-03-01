@@ -7,7 +7,6 @@
 			</div>
 			<div class="contactsPageItem">
 				<p><strong>Coffee-Shop:</strong></p>
-				<hr>
 				<div>
 					<ul class="contactsPageList">
 						<li class="contactsPageLink"><span>Город:</span>Москва</li>

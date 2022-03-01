@@ -1,0 +1,139 @@
+@media (max-width: 1500px) {
+    .copyright {
+        font-size: 0.7rem;
+    }
+    .generalPageTitle {
+        font-size: 3rem;
+        margin-top: 4rem;
+        line-height: 4rem;
+    }
+    .Button {
+        margin-left: 6rem;
+    }
+    .generalPageImg {
+        margin-top: 2rem;
+        width: 34rem;
+        height: 28rem;
+    }
+}
+@media (max-width: 1366px) {
+    .generalPageTitle {
+        font-size: 2.5rem;
+        span {
+            font-size: 1.6rem;
+        }
+    }
+    .Button {
+        margin-left: 3rem;
+    }
+}
+@media (max-width: 1200px) {
+    .Button {
+        width: 12rem;
+        height: 3rem;
+        margin-left: 0rem;
+        a {
+            font-size: 1rem;
+            line-height: 3rem;
+        }
+    }  
+    .generalPageTitle {
+        font-size: 2.2rem;
+        span {
+            font-size: 1.2rem;
+        }
+    }
+    .copyright {
+        font-size: 0.6rem;
+    }
+    .headerLogo {
+        width: 14rem;
+        height: 4rem;
+    }
+}
+@media (max-width: 991px) {
+    .generalPageTitle {
+        margin-top: 8rem;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        span {
+            font-size: 1rem;
+        }
+    }
+    .copyright {
+        font-size: 0.4rem;
+    }
+    .social {
+        justify-content: center;
+    }
+    .socialItem {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .phone {
+        font-size: 0.7rem;
+    }
+    .generalPageImg {
+        margin-top: 2rem;
+        width: 16rem;
+        height: 16rem;
+    }
+}
+@media (max-width: 768px) {
+    .Button {
+        width: 8rem;
+        height: 1.8rem;
+        a {
+            font-size: 0.5rem;
+            line-height: 1rem;
+        }
+    } 
+    .headerLogo {
+        width: 8rem;
+        height: 2rem;
+    }
+}
+@media (max-width: 577px) {
+    .generalPage {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .generalPageTitle {
+        margin-top: 1rem;
+        font-size: 2.2rem;
+        line-height: 2rem;
+        span {
+            font-size: 1.2rem;
+        }
+    }
+    .generalPagePromo {
+        min-height: 8rem;
+        width: 100%;
+    }
+    .generalPageTitle {
+        text-align: center;
+    }
+    .Button {
+        margin: 0 auto;
+        width: 12rem;
+        height: 3rem;
+        a {
+            font-size: 1rem;
+            line-height: 3rem;
+        }
+    }  
+    .generalPageImg {
+        display: none;
+    }
+    .phone {
+        font-size: 0.4rem;
+    }
+    .copyright, .phone {
+        width: 50%;
+    }
+}
+@media (max-width: 370px) {
+    .generalPageTitle {
+        font-size: 1.5rem;
+    }
+}

@@ -862,6 +862,7 @@ footer {
   color: #382e1e;
   line-height: 5rem;
   font-size: 3.5rem;
+  z-index: 2;
 }
 
 .generalPageTitle span {
@@ -882,6 +883,7 @@ footer {
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+  z-index: 2;
 }
 
 .Button a {
@@ -1212,4 +1214,410 @@ iframe {
   cursor: pointer;
   color: #2f2719;
   background-color: #c49f6d;
+}
+
+@media (max-width: 1500px) {
+  .copyright {
+    font-size: 0.7rem;
+  }
+  .generalPageTitle {
+    font-size: 3rem;
+    margin-top: 4rem;
+    line-height: 4rem;
+  }
+  .Button {
+    margin-left: 6rem;
+  }
+  .generalPageImg {
+    margin-top: 2rem;
+    width: 34rem;
+    height: 28rem;
+  }
+}
+
+@media (max-width: 1366px) {
+  .generalPageTitle {
+    font-size: 2.5rem;
+  }
+  .generalPageTitle span {
+    font-size: 1.6rem;
+  }
+  .Button {
+    margin-left: 3rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .Button {
+    width: 12rem;
+    height: 3rem;
+    margin-left: 0rem;
+  }
+  .Button a {
+    font-size: 1rem;
+    line-height: 3rem;
+  }
+  .generalPageTitle {
+    font-size: 2.2rem;
+  }
+  .generalPageTitle span {
+    font-size: 1.2rem;
+  }
+  .copyright {
+    font-size: 0.6rem;
+  }
+  .headerLogo {
+    width: 14rem;
+    height: 4rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .generalPageTitle {
+    margin-top: 8rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  .generalPageTitle span {
+    font-size: 1rem;
+  }
+  .copyright {
+    font-size: 0.4rem;
+  }
+  .social {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .socialItem {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .phone {
+    font-size: 0.7rem;
+  }
+  .generalPageImg {
+    margin-top: 2rem;
+    width: 16rem;
+    height: 16rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .Button {
+    width: 8rem;
+    height: 1.8rem;
+  }
+  .Button a {
+    font-size: 0.5rem;
+    line-height: 1rem;
+  }
+  .headerLogo {
+    width: 8rem;
+    height: 2rem;
+  }
+}
+
+@media (max-width: 577px) {
+  .generalPage {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .generalPageTitle {
+    margin-top: 1rem;
+    font-size: 2.2rem;
+    line-height: 2rem;
+  }
+  .generalPageTitle span {
+    font-size: 1.2rem;
+  }
+  .generalPagePromo {
+    min-height: 8rem;
+    width: 100%;
+  }
+  .generalPageTitle {
+    text-align: center;
+  }
+  .Button {
+    margin: 0 auto;
+    width: 12rem;
+    height: 3rem;
+  }
+  .Button a {
+    font-size: 1rem;
+    line-height: 3rem;
+  }
+  .generalPageImg {
+    display: none;
+  }
+  .phone {
+    font-size: 0.4rem;
+  }
+  .copyright, .phone {
+    width: 50%;
+  }
+}
+
+@media (max-width: 370px) {
+  .generalPageTitle {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1280px) {
+  .goodsPageName {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 1024px) and (orientation: portrait) {
+  .goodsPageTitle {
+    margin-top: 2rem;
+    margin-bottom: 12rem;
+  }
+  .goodsPageList {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 991px) {
+  .goodsPageTitle {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  .goodsPageList {
+    width: 80%;
+  }
+  .goodsPageName {
+    font-size: 1.5rem;
+  }
+  .control {
+    bottom: 35%;
+    right: 80%;
+    -webkit-transform: translate(50%, -50%);
+        -ms-transform: translate(50%, -50%);
+            transform: translate(50%, -50%);
+  }
+  .controlButton {
+    width: 32%;
+    height: 50%;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+  .goodsPageTitle {
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+    font-size: 2rem;
+  }
+  .goodsPageList {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .goodsPageImg {
+    width: 60%;
+  }
+  .control {
+    bottom: 15%;
+    right: 50%;
+    -webkit-transform: translate(50%, -50%);
+        -ms-transform: translate(50%, -50%);
+            transform: translate(50%, -50%);
+  }
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+  .goodsPageList {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media (max-width: 370px) {
+  .goodsPageTitle {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 1500px) {
+  .coffeePageName {
+    font-size: 3rem;
+  }
+  .coffeePageButton {
+    margin-left: 0rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .coffeePageButton {
+    font-size: 1.4rem;
+    line-height: 3rem;
+  }
+  .coffeePageText {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .coffeePageName {
+    margin-bottom: 1rem;
+  }
+  .coffeePageList {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .coffeePageText {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .box {
+    min-height: 32rem;
+  }
+  .coffeePageButton {
+    margin: 0;
+    width: 12rem;
+    height: 3rem;
+  }
+  .coffeePageButton a {
+    font-size: 1rem;
+    line-height: 3rem;
+  }
+  .coffeePageTitle {
+    margin-bottom: 0rem;
+  }
+  .coffeePageText {
+    line-height: 1rem;
+  }
+  footer {
+    padding: 0 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .social {
+    display: none;
+  }
+}
+
+@media (max-width: 1500px) {
+  .aboutPageText {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .aboutPageText {
+    font-size: 0.6rem;
+  }
+  .aboutPageDescription {
+    line-height: 1.5rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .aboutPageTitle {
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+  .aboutPageDescription {
+    width: 100%;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+  }
+  .aboutPageSideBar {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) and (orientation: landscape) {
+  .aboutPageTitle {
+    margin: 0rem;
+  }
+  .aboutPageDescription {
+    margin: 0rem;
+    line-height: 1rem;
+  }
+}
+
+@media (max-width: 577px) {
+  .aboutPageDescription {
+    margin-top: 0rem;
+    font-size: 0.6rem;
+    line-height: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .contactsPageTitle {
+    font-size: 2rem;
+  }
+  .contactsPageWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contactsPageItem {
+    width: 100%;
+  }
+  .contactsPageItem:nth-child(1) {
+    display: none;
+  }
+}
+
+@media (width: 812px) and (height: 375px) {
+  .contactsPageTitle {
+    margin: 0;
+    font-size: 2rem;
+  }
+  .contactsPageItem:nth-child(1) {
+    display: none;
+  }
+  .contactsPageSocial {
+    display: none;
+  }
+}
+
+@media (max-width: 370px) {
+  .contactsPageTitle {
+    display: block;
+    text-align: center;
+  }
+  .contactsPage {
+    width: 100%;
+    margin: 0;
+  }
+  .contactsPageLink span {
+    font-size: 0.8rem;
+  }
+  .contactsPageLink a {
+    font-size: 0.8rem;
+  }
 }

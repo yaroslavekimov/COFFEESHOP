@@ -1,0 +1,56 @@
+@media (max-width: 1500px) {
+    .coffeePageName {
+        font-size: 3rem;
+    }
+    .coffeePageButton {
+        margin-left: 0rem;
+    }
+}
+@media (max-width: 1200px) {
+    .coffeePageButton {
+        font-size: 1.4rem;
+        line-height: 3rem;
+    }
+    .coffeePageText {
+        margin-top: 0.5rem;
+    }
+}
+@media (max-width: 991px) {
+    .coffeePageName {
+        margin-bottom: 1rem;
+    }
+    .coffeePageList {
+        flex-direction: column;
+    }
+    .coffeePageText {
+        width: 100%;
+        font-size: 0.8rem;
+    }
+}
+@media (max-width: 768px) {
+    .box {
+        min-height: 32rem;
+    }
+    .coffeePageButton {
+        margin: 0;
+        width: 12rem;
+        height: 3rem;
+        a {
+            font-size: 1rem;
+            line-height: 3rem;
+        }
+    }
+    .coffeePageTitle {
+        margin-bottom: 0rem;
+    }
+    .coffeePageText {
+        line-height: 1rem;
+    }
+    footer {
+        padding: 0 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    .social {
+        display: none;
+    }
+}
