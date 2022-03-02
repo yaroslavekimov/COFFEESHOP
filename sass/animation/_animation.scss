@@ -1,0 +1,18 @@
+@keyframes shadowSeedMax {
+    from {width: 0rem; height: 0rem;}
+    25% {width: 3rem; height: 3rem;}
+    50% {width: 2rem; height: 2rem;}
+    75% {width: 3rem; height: 3rem;}
+    to {width: 2.5rem; height: 2.5rem;}
+}
+@keyframes shadowSeedMin {
+    from {width: 0rem; height: 0rem;}
+    25% {width: 2rem; height: 2rem;}
+    50% {width: 1rem; height: 1rem;}
+    75% {width: 2rem; height: 2rem;}
+    to {width: 1.5rem; height: 1.5rem;}
+}
+@keyframes shadowLeaves {
+    from {opacity: 0;}
+    to {opacity: 100;}
+}

@@ -709,18 +709,24 @@ footer {
 }
 
 .leaves .leavesImg {
+  display: none;
+  opacity: 0;
   width: 100%;
   height: 100%;
+  -webkit-animation: shadowLeaves 2s ease-in-out forwards;
+          animation: shadowLeaves 2s ease-in-out forwards;
 }
 
 .seed {
   position: fixed;
-  display: inline-block;
+  display: none;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 0rem;
+  height: 0rem;
+  -webkit-animation: shadowSeedMax 1s ease-in-out forwards;
+          animation: shadowSeedMax 1s ease-in-out forwards;
 }
 
 .seed img {
@@ -733,6 +739,8 @@ footer {
   height: 1.5rem;
   bottom: 13%;
   left: 3%;
+  -webkit-animation: shadowSeedMin 1s ease-in-out forwards;
+          animation: shadowSeedMin 1s ease-in-out forwards;
 }
 
 .seed:nth-child(2) {
@@ -740,6 +748,8 @@ footer {
   height: 1.5rem;
   bottom: 9%;
   left: 5%;
+  -webkit-animation: shadowSeedMin 1s ease-in-out forwards;
+          animation: shadowSeedMin 1s ease-in-out forwards;
 }
 
 .seed:nth-child(3) {
@@ -752,6 +762,8 @@ footer {
   height: 1.5rem;
   bottom: 9%;
   left: 48%;
+  -webkit-animation: shadowSeedMin 1s ease-in-out forwards;
+          animation: shadowSeedMin 1s ease-in-out forwards;
 }
 
 .seed:nth-child(5) {
@@ -769,6 +781,8 @@ footer {
   height: 1.5rem;
   bottom: 58%;
   left: 82%;
+  -webkit-animation: shadowSeedMin 1s ease-in-out forwards;
+          animation: shadowSeedMin 1s ease-in-out forwards;
 }
 
 .seed:nth-child(8) {
@@ -781,6 +795,8 @@ footer {
   height: 1.5rem;
   bottom: 38%;
   left: 62%;
+  -webkit-animation: shadowSeedMin 1s ease-in-out forwards;
+          animation: shadowSeedMin 1s ease-in-out forwards;
 }
 
 .seed:nth-child(10) {
@@ -793,6 +809,8 @@ footer {
   height: 2rem;
   bottom: 64%;
   left: 71%;
+  -webkit-animation: shadowSeedMin 1s ease-in-out forwards;
+          animation: shadowSeedMin 1s ease-in-out forwards;
 }
 
 .seed:nth-child(12) {
@@ -805,6 +823,8 @@ footer {
   height: 2rem;
   bottom: 34%;
   left: 91%;
+  -webkit-animation: shadowSeedMin 1s ease-in-out forwards;
+          animation: shadowSeedMin 1s ease-in-out forwards;
 }
 
 .stamp {
@@ -1619,5 +1639,115 @@ iframe {
   }
   .contactsPageLink a {
     font-size: 0.8rem;
+  }
+}
+
+@-webkit-keyframes shadowSeedMax {
+  from {
+    width: 0rem;
+    height: 0rem;
+  }
+  25% {
+    width: 3rem;
+    height: 3rem;
+  }
+  50% {
+    width: 2rem;
+    height: 2rem;
+  }
+  75% {
+    width: 3rem;
+    height: 3rem;
+  }
+  to {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+
+@keyframes shadowSeedMax {
+  from {
+    width: 0rem;
+    height: 0rem;
+  }
+  25% {
+    width: 3rem;
+    height: 3rem;
+  }
+  50% {
+    width: 2rem;
+    height: 2rem;
+  }
+  75% {
+    width: 3rem;
+    height: 3rem;
+  }
+  to {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+
+@-webkit-keyframes shadowSeedMin {
+  from {
+    width: 0rem;
+    height: 0rem;
+  }
+  25% {
+    width: 2rem;
+    height: 2rem;
+  }
+  50% {
+    width: 1rem;
+    height: 1rem;
+  }
+  75% {
+    width: 2rem;
+    height: 2rem;
+  }
+  to {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+@keyframes shadowSeedMin {
+  from {
+    width: 0rem;
+    height: 0rem;
+  }
+  25% {
+    width: 2rem;
+    height: 2rem;
+  }
+  50% {
+    width: 1rem;
+    height: 1rem;
+  }
+  75% {
+    width: 2rem;
+    height: 2rem;
+  }
+  to {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+@-webkit-keyframes shadowLeaves {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+
+@keyframes shadowLeaves {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
   }
 }

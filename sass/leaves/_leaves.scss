@@ -7,7 +7,10 @@
     width: 55%;
     height: 65%;
     .leavesImg {
+        display: none;
+        opacity: 0;
         width: 100%;
         height: 100%;
+        animation: shadowLeaves 2s ease-in-out forwards;
     }
 }
