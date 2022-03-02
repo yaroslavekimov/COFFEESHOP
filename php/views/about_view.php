@@ -1,5 +1,5 @@
 	
-	<div class="aboutPage Page">
+	<div id="item" class="aboutPage Page hideMenuItem">
 		<h1 class="aboutPageTitle Title">О нас</h1>
 		<div class="aboutPageWrapper Wrapper">
 			<div class="aboutPageSideBar aboutPageSideBarLeft">

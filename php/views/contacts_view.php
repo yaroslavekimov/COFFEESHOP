@@ -1,5 +1,5 @@
 	
-	<div class="contactsPage Page">
+	<div id="item" class="contactsPage Page hideMenuItem">
 		<h1 class="contactsPageTitle Title">Контакты</h1>
 		<div class="contactsPageWrapper Wrapper">
 			<div class="contactsPageItem">
