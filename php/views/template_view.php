@@ -28,6 +28,11 @@
 			<div class="stamp"><img src="/coffee-shop/img/Natural.png" alt="stamp coffee"></div>
 		</section>
 	</main>
+	<div class="hamburger">
+		<span></span>
+		<span></span>
+		<span></span>
+    </div>
 <?php
 	include_once 'php/footer.php';
 ?>

@@ -80,11 +80,28 @@ window.addEventListener('DOMContentLoaded', function() {
 
             if ( linkMenuItem === classPageName ) {
                 menu[i-1].style.display = 'none';
-                console.log(linkMenuItem);
-                console.log(classPageName);
             } else if ( menu[0].style.display !== 'none' && classPageName === 'generalPage' ) {
                     menu[0].style.display = 'none';
                 }
         }
+    })();
+
+// Hamburger
+
+    (function hamburger() {
+        let hamburger = document.querySelector('.hamburger'),
+            menuItem = document.querySelectorAll('.headerItem'),
+            menu = document.querySelector('.headerMenu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('hamburgerActive');
+            menu.classList.toggle('headerMenuActive');
+        })
+
+        menuItem.forEach(item => { item.addEventListener('click', () => {
+                hamburger.classList.toggle('hamburgerActive');
+                menu.classList.toggle('headerMenuActive');
+            })
+        })
     })();
 });
