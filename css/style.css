@@ -1905,6 +1905,10 @@ iframe {
           transform: translate(50%, -50%) rotate(45deg);
 }
 
+.modal .modalClose:hover {
+  cursor: pointer;
+}
+
 .modalOrderWrapper {
   display: -webkit-box;
   display: -webkit-flex;

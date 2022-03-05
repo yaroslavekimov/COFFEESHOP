@@ -44,6 +44,9 @@
             background-color: #2f2719;
             transform: translate(50%, -50%) rotate(45deg);
         }
+        &:hover {
+            cursor: pointer;
+        }
     }
 }
 @import "modalOrderWrapper/_modalOrderWrapper.scss";
