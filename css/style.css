@@ -1287,6 +1287,9 @@ iframe {
 }
 
 @media (max-width: 991px) {
+  .box {
+    min-height: 35rem;
+  }
   .generalPageTitle {
     margin-top: 8rem;
     font-size: 1.2rem;
@@ -1315,6 +1318,9 @@ iframe {
     margin-top: 2rem;
     width: 16rem;
     height: 16rem;
+  }
+  .social {
+    display: none;
   }
 }
 
@@ -1381,6 +1387,9 @@ iframe {
 }
 
 @media (max-width: 370px) {
+  .box {
+    min-height: 46rem;
+  }
   .generalPageTitle {
     font-size: 1.5rem;
   }
@@ -1420,7 +1429,7 @@ iframe {
   }
   .control {
     bottom: 35%;
-    right: 80%;
+    right: 85%;
     -webkit-transform: translate(50%, -50%);
         -ms-transform: translate(50%, -50%);
             transform: translate(50%, -50%);
@@ -1512,9 +1521,6 @@ iframe {
 }
 
 @media (max-width: 768px) {
-  .box {
-    min-height: 32rem;
-  }
   .coffeePageButton {
     margin: 0;
     width: 12rem;
@@ -1533,9 +1539,6 @@ iframe {
   footer {
     padding: 0 0.5rem;
     padding-bottom: 0.5rem;
-  }
-  .social {
-    display: none;
   }
 }
 
@@ -1951,5 +1954,6 @@ input {
 }
 
 .error {
+  text-align: center;
   color: red;
 }

@@ -52,6 +52,9 @@
     }
 }
 @media (max-width: 991px) {
+    .box {
+        min-height: 35rem;
+    }
     .generalPageTitle {
         margin-top: 8rem;
         font-size: 1.2rem;
@@ -77,6 +80,9 @@
         margin-top: 2rem;
         width: 16rem;
         height: 16rem;
+    }
+    .social {
+        display: none;
     }
 }
 @media (max-width: 768px) {
@@ -133,6 +139,9 @@
     }
 }
 @media (max-width: 370px) {
+    .box {
+        min-height: 46rem;
+    }
     .generalPageTitle {
         font-size: 1.5rem;
     }

@@ -28,9 +28,6 @@
     }
 }
 @media (max-width: 768px) {
-    .box {
-        min-height: 32rem;
-    }
     .coffeePageButton {
         margin: 0;
         width: 12rem;
@@ -49,8 +46,5 @@
     footer {
         padding: 0 0.5rem;
         padding-bottom: 0.5rem;
-    }
-    .social {
-        display: none;
     }
 }
