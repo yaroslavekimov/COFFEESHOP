@@ -10,8 +10,8 @@
 				<div>
 					<ul class="contactsPageList">
 						<li class="contactsPageLink"><span>Город:</span>Москва</li>
-						<li class="contactsPageLink"><span>Email:</span><a href="mailto: admin@coffee-shop.ru">admin@coffee-shop.ru</a></li>
-						<li class="contactsPageLink"><span>Телефон:</span><a href="tel: +1 800 555 888">+1 (800) 555 888</a></li>
+						<li class="contactsPageLink"><span>Email:</span><a href="mailto:admin@coffee-shop.ru">admin@coffee-shop.ru</a></li>
+						<li class="contactsPageLink"><span>Телефон:</span><a href="tel:+1800555888">+1 (800) 555 888</a></li>
 					</ul>
 				</div>
 				<div class="social contactsPageSocial">

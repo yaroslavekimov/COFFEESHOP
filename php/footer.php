@@ -11,7 +11,7 @@
         </div>
         <div class="phone">
             <div class="phoneTitle">ИНФОРМАЦИЯ</div>
-            <div class="phoneNumber"><a href="tel: +1 800 555 888">+1 (800) 555 888</a></div>
+            <div class="phoneNumber"><a href="tel:+1800555888">+1 (800) 555 888</a></div>
         </div>
     </footer>
     <script src="/coffee-shop/js/main.js"></script>
