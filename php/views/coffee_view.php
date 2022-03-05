@@ -18,4 +18,23 @@
 		
 		</div>
 	</div>
+	<div class="modal">
+		<span class="modalClose"></span>
+		<form id="wdh_form" action="#" class="modalOrder">
+			<div class="modalOrderWrapper">
+				<label>Введите ваше имя:</label>
+				<input id="uname" name="uname" required placeholder="name" type="text">
+				<span class="error error__name"></span>
+			</div>
+			<div class="modalOrderWrapper">
+				<label>Введите ваш e-mail:</label>
+				<input id="uemail" name="uemail" required placeholder="eeee@mail.ru" type="email">
+				<span class="error error__email"></span>
+			</div>
+			<div class="modalOrderWrapper">
+				<button class="modalOrderButton" id="submit">ОТПРАВИТЬ</button>
+				<div id="wdh_result_form" class="error"></div>
+			</div>
+        </form>
+	</div>
 	

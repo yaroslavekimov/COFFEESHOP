@@ -1,0 +1,11 @@
+.modalOrderButton {
+    margin: 1rem 0;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color:#c49f6d;
+    background-color: #2f2719;
+    &:hover {
+        cursor: pointer;
+    }
+}

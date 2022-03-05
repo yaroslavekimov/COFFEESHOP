@@ -1,0 +1,10 @@
+.modalOrderWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@import "label/_label.scss";
+@import "input/_input.scss";
+@import "modalOrderButton/_modalOrderButton.scss";
+@import "error/_error.scss";
