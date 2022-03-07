@@ -71,7 +71,7 @@ window.addEventListener('DOMContentLoaded', function() {
         let linkLocation = document.location.href,
             pageName = document.querySelectorAll('.hideMenuItem')[0],
             menu = document.querySelectorAll('.headerItem'),
-            menuItem = document.getElementsByTagName('a');
+            menuItem = document.querySelectorAll('.headerLink');
 
         for ( let i = 0; i < menuItem.length; i++ ) {
 
@@ -80,7 +80,7 @@ window.addEventListener('DOMContentLoaded', function() {
                 numPageName = pageName.className.indexOf(' '),
                 classPageName = pageName.className.substring(0, numPageName);
             if ( linkMenuItem === classPageName ) {
-                menu[i-1].style.display = 'none';
+                menu[i].style.display = 'none';
             } else if ( linkLocation.substring(++newLinkLocation) === ('id=' + i) && classPageName === 'productsPage' ) {
                 menu[i].style.display = 'none';
             } else if ( menu[0].style.display !== 'none' && classPageName === 'generalPage' ) {

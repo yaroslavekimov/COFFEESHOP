@@ -23,10 +23,10 @@
             </div>
             <div class="headerMenu">
                 <ul class="headerList">
-                    <li class="headerItem"><a href="<?php echo $_SERVER["REQUEST_SCHEME"].'://'.$_SERVER["HTTP_HOST"].'/' ; ?>coffee-shop/">ГЛАВНАЯ</a></li>
-                    <li class="headerItem"><a href="<?php echo $_SERVER["REQUEST_SCHEME"].'://'.$_SERVER["HTTP_HOST"].'/' ; ?>coffee-shop/products">ТОВАРЫ</a></li>
-                    <li class="headerItem"><a href="<?php echo $_SERVER["REQUEST_SCHEME"].'://'.$_SERVER["HTTP_HOST"].'/' ; ?>coffee-shop/about">О НАС</a></li>
-                    <li class="headerItem"><a href="<?php echo $_SERVER["REQUEST_SCHEME"].'://'.$_SERVER["HTTP_HOST"].'/' ; ?>coffee-shop/contacts">КОНТАКТЫ</a></li>
+                    <li class="headerItem"><a class="headerLink" href="<?php echo $_SERVER["REQUEST_SCHEME"].'://'.$_SERVER["HTTP_HOST"].'/' ; ?>coffee-shop/">ГЛАВНАЯ</a></li>
+                    <li class="headerItem"><a class="headerLink" href="<?php echo $_SERVER["REQUEST_SCHEME"].'://'.$_SERVER["HTTP_HOST"].'/' ; ?>coffee-shop/products">ТОВАРЫ</a></li>
+                    <li class="headerItem"><a class="headerLink" href="<?php echo $_SERVER["REQUEST_SCHEME"].'://'.$_SERVER["HTTP_HOST"].'/' ; ?>coffee-shop/about">О НАС</a></li>
+                    <li class="headerItem"><a class="headerLink" href="<?php echo $_SERVER["REQUEST_SCHEME"].'://'.$_SERVER["HTTP_HOST"].'/' ; ?>coffee-shop/contacts">КОНТАКТЫ</a></li>
                 </ul>
             </div>
         </div>
